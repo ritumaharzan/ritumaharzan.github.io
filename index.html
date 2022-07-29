@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<title>MOUNT EVEREST</title>
+		<meta name="author" content="your name"/>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script>
+		window.onload=choosePic;
+		var theAd=0;
+
+		var myPix=["image/a.jpg", "image/l.jpg", "image/w.jpg", "image/i.jpg",];
+
+		length=myPix.length;
+
+		function choosePic()
+		{
+			var randomNum = Math.floor(Math.random()*length);
+			document.getElementById("myPicture").src=myPix[
+			randomNum];
+
+			rotate();
+				}
+
+				function rotate()
+				{
+					theAd++;
+					if(theAd == myPix.length)
+						{
+							theAd=0;
+						}
+				document.getElementById("myPicture").src=myPix[theAd];
+				setTimeout(rotate, 3*1000);
+				}
+
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+	
+				<div class="menu">
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	
+
+</div>
+			<div class="col1">
+				<img src="image/a.jpg" width="960" height="300" id="myPicture" alt="some images">
+				
+			</div>
+
+			<div class="row"> </div>
+
+			
+
+               <div class="colmd">
+               	<div class="colmd1">
+               		<img src="image/23.jpg" width="450" height="300">
+               	</div>
+               	<div class="colmd1">
+
+               		<h1 align="center">Explore the Mountains</h1>
+					   <h3>  Let's get the top of mountain.<br>
+						Where the adventures never ends.<br>
+						Let's see the world.<br>
+						To travel is to live.<br>
+	
+						<a href="login.html">
+							
+							<button class="button button1">GET STARTED </button>
+							</a>
+							<a href="about.html">
+								<button class="button button2">EXPLORE MORE </button>
+							
+							</a>
+							
+
+					 	</div>
+               	
+               </div>
+               <div class="row"></div>
+            <div class="colmd">
+               	<div class="colmd2" style="height: 300px">
+             
+	<div class="row " style="height: 100px">
+
+	<div class="col4_1">
+	<h1  style="text-align:left">Contact us</h1>
+		
+	</div>
+	
+	
+	
+
+
+	<div class="col4_1">
+		<div class="coll">
+			<a href="mailto:reetumhjn@gmail.com"><img src="image/mail.jpg" alt="mail" title="mail" width="30%"/></a>
+		
+<p float="right"><a href="https://www.facebook.com" target="-blank"><img src="image/facebook.jpg" alt="facebook" title="facebook" width="30%"  /></a></p>
+<a href="https://twitter.com/i/flow/login" target="_blank"><img src="image/Twitter.jpg" alt="twitter"title="twitter"width="30%"/></a>
+		
+
+
+</div> 
+</div>
+		<div class="col4_1" style="float: top" "top:40%"><h4  style="text-align:center;"> <a href="gallery.html">IMAGES</a></h4></div>
+
+
+		<div class="col1">
+          <p align="center" ><font color="white">.......&copy;2022 Mount Everest.com........</p></font>
+    </div>
+</div>      
+   </div>
+   </div>
+</body>
+</html>

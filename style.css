@@ -1,0 +1,219 @@
+
+body{
+	background-image: url(image/22.jpg);
+	background-size: cover;
+
+
+
+
+}
+
+
+.wrapper{
+	width: 960px;
+	min-height: 1000px;
+	
+margin: auto auto;
+}
+
+.banner{
+		border-bottom: 5px;
+		color: #000000;
+		width: 1200px;
+		min-height: 150px;
+	}
+
+.row{
+	min-height: 1px;
+width: 100%;
+height: 10px;
+
+}
+.col1{
+	width: 100%;
+	min-height: 40px;
+	
+	
+
+}
+.button {
+	background-color: #2a5cb273;
+	border: none;
+	color: rgb(197, 187, 187);
+	padding: 8 px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+  }
+  
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 2px;}
+
+.menu{
+	width: 100%;
+	min-height: 40px;
+
+ position: relative;
+ top: 2px;
+
+
+}
+.menu ul{
+	padding-left: 500px;
+	padding-top: 15px;
+}
+.menu ul li{
+	list-style-type: none;
+
+
+
+}
+.menu ul li{
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	
+
+}
+.menu ul li a:hover{
+	text-decoration:none;
+	color: black; 
+
+}
+.menu ul li :hover{
+	background-color:#cccddd;
+	margin:20px;
+	padding:20px;
+	
+}
+
+.col1{
+	width: 100%;
+	min-height: 40px;
+
+
+}
+.col2{
+	width: 100%;
+	min-height: 40px;
+
+
+}
+.col3{
+	width: 75%;
+	min-height: 30px;
+	margin: left;
+
+	height: 100px;
+	margin: auto auto;
+
+}
+.col4{
+	width: 20%;
+	min-height: 0px;
+	float: left;
+	position: relative;
+	top:5px;
+}
+.col4_1
+{
+	width: 60%;
+	height:60px;
+	margin: auto auto;
+	position: relative;
+	bottom: 10px;
+
+}
+.coll
+{
+	width: 30%;
+	height: 100%;
+	
+		float:center;
+
+}
+.col5{
+	width: 80%;
+	background-color:#819377;
+	height:300px;
+	margin:auto auto;
+
+}
+
+.colmd
+{
+	width: 100%;
+	height: 300px;
+	
+
+}
+.colmd1
+{
+	width: 45%;
+	height: 300px;
+	background-color: black;
+	opacity: .8;
+
+
+	float: left;
+	margin-left:30px; 
+
+}
+.colmd2
+{
+	width: 100%;
+	height: 400px;
+	background-color:black;
+	opacity: .8;
+
+
+	float: left;
+	margin-left:30px; 
+
+}
+h3{
+	font-family:Courier New;
+	color: white;
+}
+h1{
+	color:white; 
+}
+.col{
+
+	
+	border-radius: 0px 30px 0px 30px;
+	margin:auto auto;  
+	min-height: 50px;
+    padding-top: 10px;
+	width: 14%;
+	min-height: 100px;
+	background-color: black;
+	text-align: center;
+	opacity: .8;
+}
+h4{
+	font-family: Courier New;
+
+	
+}
+.box{
+	background-color: #99978c;
+	width: 215px;
+	height: 100px;
+	
+}
+.gallery img:hover{
+	transform: scale(1.1);
+
+}
+.box1
+{
+  width:100%;
+  min-height:50px;
+}
